@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "paper_trail_manager"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Igal Koshevoy"]
   s.date = "2012-08-13"
-  s.description = "A user interface for `paper_trail` versioning data in Ruby on Rails 3 applications."
+  s.description = "A user interface for `paper_trail` versioning data in Ruby on Rails 4 applications."
   s.email = "igal@pragmaticraft.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -349,10 +349,10 @@ Gem::Specification.new do |s|
     "rails_test/rails-3.2.8/vendor/assets/stylesheets/.gitkeep",
     "rails_test/rails-3.2.8/vendor/plugins/.gitkeep"
   ]
-  s.homepage = "http://github.com/igal/paper_trail_manager"
+  s.homepage = "http://github.com/mastermike14/paper_trail_manager"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.11"
-  s.summary = "A user interface for `paper_trail` versioning data in Ruby on Rails 3 applications."
+  s.summary = "A user interface for `paper_trail` versioning data in Ruby on Rails 4 applications."
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
@@ -360,7 +360,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rake>, [">= 0"])
       s.add_runtime_dependency(%q<rails>, ["~> 3.0"])
-      s.add_runtime_dependency(%q<paper_trail>, ["~> 2.0"])
+      s.add_runtime_dependency(%q<paper_trail>, ["~> 3.0"])
       s.add_runtime_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
       s.add_development_dependency(%q<rdoc>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
@@ -368,7 +368,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<rails>, ["~> 3.0"])
-      s.add_dependency(%q<paper_trail>, ["~> 2.0"])
+      s.add_dependency(%q<paper_trail>, ["~> 3.0"])
       s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
       s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
@@ -377,7 +377,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<rails>, ["~> 3.0"])
-    s.add_dependency(%q<paper_trail>, ["~> 2.0"])
+    s.add_dependency(%q<paper_trail>, ["~> 3.0"])
     s.add_dependency(%q<will_paginate>, ["~> 3.0.pre2"])
     s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
